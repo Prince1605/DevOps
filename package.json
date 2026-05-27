@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node src/index.js",
-  "test": "echo \"Tests Passed\""
-},
- "keywords": [],
+    "start": "node src/index.js",
+    "test": "echo \"Tests Passed\"",
+    "lint": "eslint ."
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "globals": "^17.6.0"
   }
 }
