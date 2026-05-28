@@ -6,7 +6,7 @@ app.use(express.json());
 
 const PORT = 3000;
 
-abc();
+
 
 app.get("/", (req, res) => {
   res.send("DevOps Todo API Running");
